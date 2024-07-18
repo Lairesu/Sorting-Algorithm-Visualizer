@@ -1,6 +1,6 @@
 SIZE = {
-    "width": 800,
-    "height": 800,
+    "Width": 800,
+    "Height": 800,
 }
 
 COLOR = {
@@ -11,11 +11,12 @@ COLOR = {
     "blue": "#0000ff",
     "yellow": "#ffff00",
     "cyan": "#00ffff",
-    "bg_color": "#000000",
+    "bg_color": "#ffffff",
+    "text":"#3EB489",
 }
 
 PADDING = {
-    "top": 100,
+    "top": 150,
     "side": 100,
 }
 
@@ -24,3 +25,4 @@ GRADIENTS = [
                  ("#484848"),
                  ("#606060")
 ]
+
