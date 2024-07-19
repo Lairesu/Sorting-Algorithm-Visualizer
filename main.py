@@ -8,6 +8,7 @@ from sorting.Bubble_Sort import bubble_sort
 from sorting.Insertion_Sort import insertion_sort
 from sorting.Selection_Sort import selection_sort
 from sorting.Merge_Sort import merge_sort
+from sorting.Quick_Sort import quick_sort
 
 
 # pygame Initialization
@@ -52,8 +53,8 @@ def Main():
     descending = False
 
     #sorting Variables
-    sorting_algorithm = merge_sort
-    sorting_name = 'Merge Sort'
+    sorting_algorithm = quick_sort
+    sorting_name = 'quick_sort'
     sorting_algorithm_generator = None
 
     #lst variables
