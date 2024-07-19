@@ -7,6 +7,8 @@ from scripts.utilis import Generate_lst, Draw
 from sorting.Bubble_Sort import bubble_sort
 from sorting.Insertion_Sort import insertion_sort
 from sorting.Selection_Sort import selection_sort
+from sorting.Merge_Sort import merge_sort
+
 
 # pygame Initialization
 pygame.init()
@@ -50,14 +52,14 @@ def Main():
     descending = False
 
     #sorting Variables
-    sorting_algorithm = selection_sort
-    sorting_name = 'Selection Sort'
+    sorting_algorithm = merge_sort
+    sorting_name = 'Merge Sort'
     sorting_algorithm_generator = None
 
     #lst variables
-    n = 35
-    min_val = 5
-    max_val = 50
+    n = 100
+    min_val = 0
+    max_val = 100
     # draw
     starting_lst = Generate_lst(n, min_val, max_val)
     draw_info = Sorting_GUI_Information(starting_lst)
@@ -65,7 +67,7 @@ def Main():
     
     #event loop
     while running:
-        dt = clock.tick(10) / 1000
+        dt = clock.tick(60) / 1000
 
         # Algorithm generator 
         if sorting:
@@ -113,8 +115,6 @@ def Main():
             elif event.key == pygame.K_DOWN and not sorting:
                 descending = True
                 ascending = False
-
-                
         #update display
         pygame.display.update()
 
