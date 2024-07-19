@@ -10,8 +10,7 @@ COLOR = {
     "green": "#00ff00",
     "blue": "#0000ff",
     "yellow": "#ffff00",
-    "cyan": "#00ffff",
-    "bg_color": "#ffffff",
+    "bg_color": "#0e3a53",
     "text":"#3EB489",
 }
 
