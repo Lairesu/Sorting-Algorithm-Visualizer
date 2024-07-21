@@ -114,7 +114,7 @@ Bubble Sort repeatedly steps through the list, compares adjacent elements, and s
 ### Bubble Sort Visualizer Interface
 
 <div align="center">
-  <img src="data/Bubble_Sort.gif" alt="Bubble Sort">
+  <img src="data/bubble_sort.gif" alt="Bubble Sort">
 </div>
 <br>
 
@@ -138,7 +138,7 @@ Merge Sort is a divide-and-conquer algorithm that divides the list into halves, 
 ### Merge Sort Visualizer Interface
 
 <div align="center">
-  <img src="data/Merge_Sort.gif" alt="Merge Sort">
+  <img src="data/Merge_sort.gif" alt="Merge Sort">
 </div>
 <br>
 
@@ -162,7 +162,7 @@ Quick Sort is a divide-and-conquer algorithm that selects a 'pivot' element and 
 ### Quick Sort Visualizer Interface
 
 <div align="center">
-  <img src="data/Quick_Sort.gif" alt="Quick Sort">
+  <img src="data/Quick_sort.gif" alt="Quick Sort">
 </div>
 <br>
 
