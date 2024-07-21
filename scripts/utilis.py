@@ -67,3 +67,6 @@ def draw_text(draw_info, sort_name, ascending):
     #type of sorting and descending and Ascending
     Title = Type.render(f"{sort_name} - {'Ascending' if ascending else 'Descending'}", 1, COLOR['text'])
     draw_info.screen.blit(Title, ((SIZE["Width"] / 2) - (Title.get_width()/2), 5))
+
+
+

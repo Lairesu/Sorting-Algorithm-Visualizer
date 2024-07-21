@@ -11,6 +11,7 @@ from sorting.Merge_Sort import merge_sort
 from sorting.Quick_Sort import quick_sort
 
 
+
 # pygame Initialization
 pygame.init()
 
@@ -22,9 +23,7 @@ class Sorting_GUI_Information:
         
         # pygame
         self.screen = pygame.display.set_mode((SIZE["Width"],SIZE["Height"]))
-        pygame.display.set_caption("Sorting Algorithms Visualizer")
-        
-        
+        pygame.display.set_caption("Sorting Algorithms Visualizer")        
 
     def set_list(self, lst):
         self.lst = lst
@@ -53,13 +52,21 @@ def Main():
     descending = False
 
     #sorting Variables
-    sorting_algorithm = quick_sort
-    sorting_name = 'quick_sort'
+    sort_type = [
+        ('bubble_sort', bubble_sort),
+        ('insertion_sort', insertion_sort),
+        ('selection_sort', selection_sort),
+        ('merge_sort', merge_sort),
+        ('quick_sort', quick_sort),
+    ]
+    current_sort_index = 0
+    sorting_algorithm = sort_type[current_sort_index][1]
+    sorting_name = sort_type[current_sort_index][0]
     sorting_algorithm_generator = None
 
     #lst variables
     n = 100
-    min_val = 0
+    min_val = 1
     max_val = 100
     # draw
     starting_lst = Generate_lst(n, min_val, max_val)
@@ -68,7 +75,7 @@ def Main():
     
     #event loop
     while running:
-        dt = clock.tick(60) / 1000
+        dt = clock.tick(100) / 1000
 
         # Algorithm generator 
         if sorting:
@@ -85,7 +92,7 @@ def Main():
                 running = False
                 pygame.quit()
                 sys.exit()
-            
+
             # mouse events
             if event.type == pygame.MOUSEBUTTONDOWN:
                 mos_x , mos_y = event.pos
@@ -97,8 +104,7 @@ def Main():
                     sorting = True
                     sorting_algorithm_generator = sorting_algorithm(draw_info, ascending)
 
-                      
-
+          
             # keyboard events
             if event.type  != pygame.KEYDOWN:
                 continue
@@ -116,6 +122,15 @@ def Main():
             elif event.key == pygame.K_DOWN and not sorting:
                 descending = True
                 ascending = False
+            elif event.key == pygame.K_RIGHT and not sorting:
+                current_sort_index = (current_sort_index + 1) % len(sort_type)
+                sorting_algorithm = sort_type[current_sort_index][1]
+                sorting_name = sort_type[current_sort_index][0]
+            elif event.key == pygame.K_LEFT and not sorting:
+                current_sort_index = (current_sort_index - 1) % len(sort_type)
+                sorting_algorithm = sort_type[current_sort_index][1]
+                sorting_name = sort_type[current_sort_index][0]
+
         #update display
         pygame.display.update()
 

@@ -8,7 +8,7 @@ COLOR = {
     "white": "#ffffff",
     "red": "#ff0000",
     "green": "#00ff00",
-    "blue": "#ADD8E6",
+    "blue": "#318CE7",
     "yellow": "#ffff00",
     "bg_color": "#0e3a53",
     "text":"#3EB489",
