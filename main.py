@@ -65,7 +65,7 @@ def Main():
     sorting_algorithm_generator = None
 
     #lst variables
-    n = 100
+    n = 99
     min_val = 1
     max_val = 100
     # draw
@@ -75,7 +75,7 @@ def Main():
     
     #event loop
     while running:
-        dt = clock.tick(100) / 1000
+        dt = clock.tick(60) / 1000
 
         # Algorithm generator 
         if sorting:

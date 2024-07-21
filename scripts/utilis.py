@@ -28,7 +28,7 @@ def Draw_list(draw_info, color_pos={}, clear_bg=False):
         clear_rect =  (PADDING["side"] // 2 , PADDING["top"],
                        SIZE["Width"] - PADDING["side"],
                        SIZE["Height"] - PADDING["top"])
-        pygame.draw.rect(draw_info.screen, COLOR["bg_color"], clear_rect)
+        pygame.draw.rect(draw_info.screen, COLOR["bg_color"], clear_rect,)
 
 
     for i, val in enumerate(lst):
