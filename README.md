@@ -167,8 +167,8 @@ Quick Sort is a divide-and-conquer algorithm that selects a 'pivot' element and 
 <br>
 
 # Requirements/Steps to Run
-- Install Python
-- Install Pygame
+- Install [Python](https://www.python.org/downloads/)
+- Install [Pygame-ce](https://pyga.me/)
 - Run `Algorithm_Visualizer (main).py`
   
 <br>
