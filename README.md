@@ -1,6 +1,7 @@
 ![Sorting Algorithms](https://img.shields.io/badge/Sorting%20Algorithms-Quicksort,%20Merge%20Sort%20%26%20More-blue)
-![Python](https://img.shields.io/badge/Python-3.9-blue)
-![Pygame CE](https://img.shields.io/badge/Pygame%20CE-1.9.0-blue)
+![Python](https://img.shields.io/badge/python-3.12.4-blue
+)
+![Pygame CE](https://img.shields.io/badge/Pygame%20CE-2.5-blue)
 
 <p align="center">
   <img src="data/Sorting-Algorithms.png" alt="Sorting Algorithm">
@@ -29,7 +30,7 @@
     - [Quick Sort Visualizer Interface](#quick-sort-visualizer-interface)
 - [Requirements/Steps to Run](#requirementssteps-to-run)
 - [Contact](#contact)
-  - [](#)
+
 
 ## Overview
 
@@ -181,8 +182,6 @@ Quick Sort is a divide-and-conquer algorithm that selects a 'pivot' element and 
 - **project Link**
   - [Algorithm Visualizer](https://github.com/NoahXiren/Sorting-Algorithm-Visualizer)
   
-  
-## 
 <div align ="center" >
 <h3>Thank You!</h3>
 </div>
