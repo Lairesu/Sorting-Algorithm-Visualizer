@@ -177,7 +177,7 @@ Quick Sort is a divide-and-conquer algorithm that selects a 'pivot' element and 
 # Contact
 
 - **Lairesu**
-  - LinkedIn: [www.linkedin.com/in/noah-xiran-8445042ba](www.linkedin.com/in/raj-rai-8445042ba)
+  - LinkedIn: [Raj Rai](www.linkedin.com/in/raj-rai-8445042ba)
   - Email: coderraj2005@gmail.com
 - **project Link**
   - [Algorithm Visualizer](https://github.com/NoahXiren/Sorting-Algorithm-Visualizer)
