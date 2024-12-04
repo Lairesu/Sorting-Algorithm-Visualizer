@@ -180,7 +180,7 @@ Quick Sort is a divide-and-conquer algorithm that selects a 'pivot' element and 
   - LinkedIn: [Raj Rai](https://www.linkedin.com/in/raj-rai-8445042ba/)
   - Email: coderraj2005@gmail.com
 - **project Link**
-  - [Algorithm Visualizer](https://github.com/NoahXiren/Sorting-Algorithm-Visualizer)
+  - [Algorithm Visualizer](https://github.com/Lairesu/Sorting-Algorithm-Visualizer)
   
 <div align ="center" >
 <h3>Thank You!</h3>
